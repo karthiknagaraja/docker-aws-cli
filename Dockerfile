@@ -15,6 +15,5 @@ RUN \
 
 RUN \
 	unzip terraform_0.6.9_linux_amd64.zip -d /usr/bin/ && \
-	echo "export PATH=\$PATH:/terraform" >> .bashrc && \
 	rm -fr /terraform_0.6.9_linux_amd64.zip
 
